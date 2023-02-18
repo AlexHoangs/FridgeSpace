@@ -1,12 +1,30 @@
+
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/layout";
+import Home from "./pages/home";
+import Space from "./pages/space";
+import Recipes from "./pages/recipes";
+
 import './App.css';
 
 import React from 'react';
 
 import DoEverything from './components/DoEverything';
 
-const App = () => {
-
-  return (<DoEverything/>);
-         
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="space" element={<Space />} />
+          <Route path="recipes" element={<Recipes />} />
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
-export default App;
+
+ReactDOM.render(<App />, document.getElementById("root"));
