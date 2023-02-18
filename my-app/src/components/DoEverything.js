@@ -2,34 +2,11 @@ import React from 'react';
 import Tesseract from 'tesseract.js';
 
 
-function ShowRecieptBlank(){
-    return(
-        <div id="blankReciept">
-            <h1>Your Grocery List</h1>
-        </div>
-    )
-}
-
 function DoEverything() {
   const [isLoading, setIsLoading] = React.useState(false);
   const [image, setImage] = React.useState('');
   const [text, setText] = React.useState('');
   const [progress, setProgress] = React.useState(0);
-
-  function ShowReciept(){
-    return(
-        <div id="blankReciept">
-            <p>Here's what we found</p>
-            <textarea
-                className="form-control w-100 mt-5"
-                rows="30"
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-              ></textarea>
-         
-        </div>
-    )
-}
 
   const handleSubmit = () => {
     setIsLoading(true);
@@ -50,6 +27,32 @@ function DoEverything() {
         setIsLoading(false);
       });
   };
+
+  function ShowRecieptBlank(){
+    return(
+        <div id = "recieptButton">
+            <div id="blankReciept">
+                <h1>Your Grocery List</h1>
+            </div>
+
+        </div>
+    )
+}
+  function ShowReciept(){
+    return(
+        <div id="blankReciept">
+            <p>Here's what we found</p>
+            <textarea
+                className="form-control w-100 mt-5"
+                rows="30"
+                value={text}
+                onChange={(e) => setText(e.target.value)}
+              ></textarea>
+
+        </div>
+    )
+}
+
 
   return (
     <div style={{ height: '100vh' }}>

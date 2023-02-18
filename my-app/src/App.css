@@ -6,8 +6,19 @@
   height: 70vh;
   border-radius: 44px;
   text-align: center;
-  align-items: center;
   justify-content: center;
 
+}
+#recieptButton{
+  display: flex;
+  flex-direction: column;
   margin-left: 60vw;
+  justify-content: center;
+}
+#convertButton{
+  width: auto;
+}
+#chooseFileButton{
+  width: auto;
+
 }

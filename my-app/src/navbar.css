@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .logo-image{
     max-height: 10cm;
     max-width: 10cm;
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+}
+#logoSize{
+    height: 90px;
+    width: 93px;
+}
+.title{
+    margin-left: 0vw;
+    color: rgba(0, 147, 121, 1);
+    font-size: 32.8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
 }
 nav {
     display: inline-flex;
@@ -16,4 +34,8 @@ ul {
 }
 li {
     margin: 10px;
+    text-decoration: none;
+}
+#recipes{
+    background-color: aquamarine;
 }
