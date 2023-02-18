@@ -19,15 +19,14 @@ function DoEverything() {
   function ShowReciept(){
     return(
         <div id="blankReciept">
+            <p>Here's what we found</p>
             <textarea
                 className="form-control w-100 mt-5"
                 rows="30"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
               ></textarea>
-              <h1>
-                  {text}
-              </h1>
+         
         </div>
     )
 }
