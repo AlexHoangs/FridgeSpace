@@ -7,14 +7,6 @@ import React from 'react';
 
 import Tesseract from 'tesseract.js';
 
-Tesseract.recognize(
-  'https://tesseract.projectnaptha./img/eng_bw.png',
-  'eng',
-  { logger: m => console.log(m) }
-).then(({ data: { text } }) => {
-  console.log(text);
-})
-
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [image, setImage] = React.useState('');
@@ -45,6 +37,7 @@ const App = () => {
     <div style={{ height: '100vh' }}>
       <div>
         <div>
+          
           {!isLoading && (
             <h1 className="text-center py-5 mc-5">Image To Text</h1>
           )}
