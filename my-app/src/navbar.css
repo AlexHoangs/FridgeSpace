@@ -1,0 +1,22 @@
+.logo-image{
+    max-height: 10cm;
+    max-width: 10cm;
+}
+
+nav {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    margin: 10px;
+}
