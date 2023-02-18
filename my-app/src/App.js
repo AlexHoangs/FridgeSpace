@@ -10,8 +10,6 @@ import './App.css';
 
 import React from 'react';
 
-import DoEverything from './components/DoEverything';
-
 export default function App() {
   return (
     <BrowserRouter>
