@@ -36,6 +36,35 @@ li {
     margin: 10px;
     text-decoration: none;
 }
+#list{
+    margin-top: 30px;
+}
+#home{
+    display: flex;
+    height: 60px;
+    width: 164px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
 #recipes{
-    background-color: aquamarine;
+    display: flex;
+    background-color: rgba(229, 244, 242, 1);
+    height: 60px;
+    width: 164px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#foods{
+    display: flex;
+    background-color: rgba(0, 147, 121, 1);
+    height: 60px;
+    width: 164px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
 }

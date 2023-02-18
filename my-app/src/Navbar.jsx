@@ -12,18 +12,15 @@ function Navbar() {
       <div class="title">
             <h1>Fridge Space</h1>
       </div>
-      <ul>
-        <li>
+      <ul id ="list">
+        <li id = "home">
           <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/space">MySpace</Link>
         </li>
         <li id = "recipes">
           <Link to="/recipes">Recipes</Link>
         </li>
-        <li>
-          <Link to="/recipes">MyAccount</Link>
+        <li id = "foods">
+          <Link to="/space">MyFood</Link>
         </li>
       </ul>
     </nav>

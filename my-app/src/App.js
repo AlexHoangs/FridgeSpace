@@ -16,8 +16,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="space" element={<Space />} />
-          <Route path="recipes" element={<Recipes />} />
+          <Route path= "space" element={<Space />} />
+          <Route path= "recipes" element={<Recipes />} />
           
         </Route>
       </Routes>
