@@ -31,7 +31,11 @@ html {background-color: #242424}
 }
 #homePage{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.rightSide{
+  margin-left: 44vw;
 }
 #mainHeader{
   font-family: 'Poppins';

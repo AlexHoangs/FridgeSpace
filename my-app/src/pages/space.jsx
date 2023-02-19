@@ -1,6 +1,6 @@
 import React from 'react';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import FoodItem from '../components/FoodItem';
-
 
 import bread from "../images/bread.png"
 import coffee from "../images/coffee.png"
@@ -21,6 +21,10 @@ function Space() {
                 <FoodItem picture= {bread} name="Bread" date="04/09/2013" due="5/20/2013"/>
                 <FoodItem picture={meat} name="Meat" date="04/09/2013" due="5/20/2013"/>
             </div>
+            <li id = "foods" className="rightSide">
+                <Link className = "theLinks" id = "foodsLink"to="/recipes">Next</Link>
+            </li>
+            
         </div>
         
     );
