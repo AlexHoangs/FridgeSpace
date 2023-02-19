@@ -7,7 +7,7 @@
   border-radius: 44px;
   text-align: center;
   justify-content: center;
-  margin-left: 60vw;
+  /* margin-left: 60vw; */
 }
 #recieptButton{
   display: flex;
@@ -20,11 +20,12 @@
 #chooseFileButton{
   width: auto;
 }
-#uploadSlide{
+#block{
   background-color: rgb(3,147,121);
   width: 90vw;
   height: 70vh;
   border-radius: 20px;
+  display: inline-flex;
 }
 #homePage{
   display: flex;
@@ -41,6 +42,7 @@
   font-size: 21px;
   color: rgb(45,45,45);
 }
+
 
 #pageWrapper{
   display: flex;
@@ -63,4 +65,19 @@
   height: 32vh;
   width: 25vw;
   margin-bottom: 20px;
+}
+
+#uploadSlide {
+  margin-left: 10vh;
+  margin-right: 5vh;
+}
+
+#phone {
+  margin-top: 10vh;
+  margin-right: 10vh;
+  margin-left: 5vh;
+}
+
+.logo-image {
+  margin-left: 5vh;
 }

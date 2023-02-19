@@ -17,7 +17,7 @@ function Navbar() {
           <Link className = "theLinks" to="/">Home</Link>
         </li>
         <li id = "recipes">
-          <Link className = "theLinks" to="/recipes">Recipes</Link>
+          <Link className = "recipeLinks" to="/recipes">Recipes</Link>
         </li>
         <li id = "foods">
           <Link className = "theLinks" id = "foodsLink"to="/space">MyFoods</Link>
