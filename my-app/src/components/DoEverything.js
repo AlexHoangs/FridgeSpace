@@ -40,6 +40,8 @@ function DoEverything() {
 }
   function ShowReciept(){
     return(
+        <div id = "recieptButton">
+
         <div id="blankReciept">
             <p>Here's what we found</p>
             <textarea
@@ -49,13 +51,13 @@ function DoEverything() {
                 onChange={(e) => setText(e.target.value)}
               ></textarea>
 
+            </div>
         </div>
     )
 }
 
-
   return (
-    <div style={{ height: '100vh' }}>
+    <div>
       <div>
         <div>
             {!isLoading && !text && (
