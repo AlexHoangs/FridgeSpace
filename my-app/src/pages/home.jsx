@@ -11,7 +11,7 @@ function Home() {
                     <h1 id="mainHeader">Upload your grocery receipts.</h1>
                     <h3 id="subHeader">Build a library of the current food you have.</h3>
                     <li id = "foods">
-                        <Link className = "theLinks" id = "foodsLink"to="/space">MyFoods</Link>
+                        <Link className = "theLinks" id = "foodsLink"to="/space">Next</Link>
                     </li>
                 </div>
                 <div id = "phone"> <DoEverything/></div>

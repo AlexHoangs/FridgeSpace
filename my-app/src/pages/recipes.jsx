@@ -1,9 +1,16 @@
 import React from 'react';
+import FoodItem from '../components/FoodItem';
 
-function Recipes() {
+function Space() {
     return (
-        <h1>this is the recipes</h1>
+        <div id = "recipeWrapper">
+            <div id = "recipeLayout">
+                <FoodItem/>
+                <FoodItem/>
+            </div>
+        </div>
+        
     );
 }
 
-export default Recipes;
+export default Space;

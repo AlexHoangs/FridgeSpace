@@ -1,3 +1,5 @@
+html {background-color: #242424}
+
 #blankReciept{
   display: flex;
   flex-direction: column;
@@ -44,13 +46,24 @@
 }
 
 
-#pageWrapper{
+#recipeWrapper{
   display: flex;
   justify-content: center;
-  background-color: black;
   height: 90vh;
 }
 #foodsLayout{
+  display: flex;
+  background-color: rgba(0, 147, 121, 1);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#recipeLayout{
   display: flex;
   background-color: rgba(0, 147, 121, 1);
   flex-wrap: wrap;
@@ -60,6 +73,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .foodItem{
   background-color: rgb(204,230,227);
   height: 32vh;
