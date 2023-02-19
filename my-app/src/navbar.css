@@ -38,18 +38,10 @@ li {
 }
 #list{
     margin-top: 30px;
+    margin-right: 5vh;
 }
-#home{
-    display: flex;
-    height: 60px;
-    width: 164px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border-radius: 20px;
-    margin-left: 25vw;
-}
-#recipes{
+
+#foods{
     display: flex;
     background-color: rgba(229, 244, 242, 1);
     height: 60px;
@@ -59,7 +51,31 @@ li {
     text-decoration: none;
     border-radius: 20px;
 }
-#foods{
+
+.theLinks{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: rgba(0, 147, 121, 1);
+}
+#foodsLink{
+    color: rgba(0, 147, 121, 1);
+}
+
+#home{
+    display: flex;
+    height: 60px;
+    width: 164px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 5vw;
+    color: rgba(0, 147, 121, 1);
+}
+
+#recipes{
     display: flex;
     background-color: rgba(0, 147, 121, 1);
     height: 60px;
@@ -68,14 +84,13 @@ li {
     justify-content: center;
     text-decoration: none;
     border-radius: 20px;
+    color: white;
 }
-.theLinks{
+
+.recipeLinks {
     text-decoration: none;
-    color: rgba(0, 147, 121, 1);
     font-size: 16px;
     font-family: "Poppins";
     font-weight: 600;
-}
-#foodsLink{
     color: white;
 }
