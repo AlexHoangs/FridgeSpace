@@ -1,5 +1,6 @@
 function FoodItem(props){
     return(
+
     <div>
         <div className = "foodItem">
             <div className = "itemDesc">
@@ -10,9 +11,10 @@ function FoodItem(props){
                 <p className = "dueDate"> {props.due}</p>
             </div>
 
+
+                </div>
             </div>
         </div>
-    </div>
     )
 }
 export default FoodItem;
