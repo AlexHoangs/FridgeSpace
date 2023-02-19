@@ -16,12 +16,13 @@ function Navbar() {
         <li id = "home">
           <Link className = "theLinks" to="/">Home</Link>
         </li>
-        <li id = "recipes">
-          <Link className = "recipeLinks" to="/recipes">Recipes</Link>
-        </li>
         <li id = "foods">
           <Link className = "theLinks" id = "foodsLink"to="/space">MyFoods</Link>
         </li>
+        <li id = "recipes">
+          <Link className = "recipeLinks" to="/recipes">Recipes</Link>
+        </li>
+        
       </ul>
     </nav>
   );
