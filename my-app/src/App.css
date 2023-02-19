@@ -41,3 +41,26 @@
   font-size: 21px;
   color: rgb(45,45,45);
 }
+
+#pageWrapper{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 90vh;
+}
+#foodsLayout{
+  display: flex;
+  background-color: rgba(0, 147, 121, 1);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90vw;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.foodItem{
+  background-color: rgb(204,230,227);
+  height: 32vh;
+  width: 25vw;
+  margin-bottom: 20px;
+}

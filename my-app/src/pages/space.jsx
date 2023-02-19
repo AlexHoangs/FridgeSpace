@@ -1,8 +1,20 @@
 import React from 'react';
+import FoodItem from '../components/FoodItem';
 
 function Space() {
     return (
-        <h1>this is the food </h1>
+        <div id = "pageWrapper">
+            <div id = "foodsLayout">
+                <FoodItem/>
+                <FoodItem/>
+                <FoodItem/>
+                <FoodItem/>
+                <FoodItem/>
+                <FoodItem/>
+
+            </div>
+        </div>
+        
     );
 }
 
