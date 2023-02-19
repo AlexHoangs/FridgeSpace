@@ -8,7 +8,7 @@ function RecipeItem(props){
 
                 <h1>{props.name}</h1>
 
-                <p>Purchase Date: {props.date}</p>
+                <p>Cook Date: {props.date}</p>
 
                 <div>
                     <p className = "dueDate"> {props.due}</p>

@@ -15,7 +15,7 @@ function Home() {
                     </li>
                 </div>
                 <div id = "phone"> <DoEverything/></div>
-            </div>
+            </div> 
         </div>
 
     );
