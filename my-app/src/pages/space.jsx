@@ -20,9 +20,6 @@ function Space() {
                 <FoodItem picture={coffee} name="Coffee" date="04/09/2013" due="4/09/2015"/>
                 <FoodItem picture= {bread} name="Bread" date="04/09/2013" due="5/20/2013"/>
                 <FoodItem picture={meat} name="Meat" date="04/09/2013" due="5/20/2013"/>
-                
-                
-
             </div>
         </div>
         

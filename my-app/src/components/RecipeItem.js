@@ -1,10 +1,10 @@
-function FoodItem(props){
+function RecipeItem(props){
     return(
         <div>
-            <div className = "foodItem">
+            <div className = "RecipeItem">
 
                 <div className = "itemDesc">
-                <img className = "foodPicture" src={props.picture} alt="picture" />
+                <img className = "recipePicture" src={props.picture} alt="picture" />
 
                 <h1>{props.name}</h1>
 
@@ -19,4 +19,4 @@ function FoodItem(props){
         </div>
     )
 }
-export default FoodItem;
+export default RecipeItem;
