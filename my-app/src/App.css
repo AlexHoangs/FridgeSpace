@@ -101,6 +101,12 @@ html {background-color: #242424}
   height: 110px;
   width: auto;
 }
+
+.recipePicture {
+  height: 110px;
+  width: auto;
+}
+
 .dueDate{
   border: 1px solid red;
   border-radius: 12px;
@@ -121,4 +127,16 @@ html {background-color: #242424}
 
 .logo-image {
   margin-left: 5vh;
+}
+
+.RecipeItem {
+  margin-top: 10vh;
+}
+
+#recipeTitle {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 30px;
 }
